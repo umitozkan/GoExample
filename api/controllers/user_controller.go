@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	formaterror "github.com/umitozkan/GoExample/api/utils"
 	"io/ioutil"
 	"net/http"
 	"strconv"
@@ -12,7 +13,6 @@ import (
 	"github.com/umitozkan/GoExample/api/auth"
 	"github.com/umitozkan/GoExample/api/models"
 	"github.com/umitozkan/GoExample/api/responses"
-	"github.com/umitozkan/utils/formaterros"
 )
 
 func (server *Server) CreateUser(w http.ResponseWriter, r *http.Request) {
