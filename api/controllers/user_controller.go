@@ -4,7 +4,6 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	formaterror "github.com/umitozkan/GoExample/api/utils"
 	"io/ioutil"
 	"net/http"
 	"strconv"
