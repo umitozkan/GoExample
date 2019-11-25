@@ -13,6 +13,7 @@ import (
 	"github.com/umitozkan/GoExample/api/auth"
 	"github.com/umitozkan/GoExample/api/models"
 	"github.com/umitozkan/GoExample/api/responses"
+	"github.com/umitozkan/GoExample/api/utils/formaterror"
 )
 
 func (server *Server) CreateUser(w http.ResponseWriter, r *http.Request) {
